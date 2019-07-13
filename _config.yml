@@ -1,11 +1,11 @@
 # Site settings
 author: Shawn Tennity
-title: 
+title: From Civil Engineer to Software Engineer
 header-img: img/home-bg.png
 email: shawntennity@gmail.com
 copyright_name: Shawn Tennity
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Problem Solving is Problem Solving
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  stennity8
