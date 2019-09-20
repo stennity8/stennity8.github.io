@@ -6,7 +6,7 @@ permalink:  rails_6_with_bootstrap_using_webpack
 ---
 
 
-II am a fan of Boostrap and have used it several times.  For my Rails project I played around with Materialize during my initial implimentation but decided to go back to Bootstrap.  This was my first project in Rails and I knew very little about how JavaScript worked within the Rails ecosystem.  I debated whether I should just use the Bootstrap CDN's in my project or try to implement them directly throught the Rails asset pipeline.  I decided to go the asset pipeline route as my Flatiron Projects are a chance to learn some new things while solidifying the course work.
+I am a fan of Boostrap and have used it several times.  For my Rails project I played around with Materialize during my initial implementation but decided to go back to Bootstrap.  This was my first project in Rails and I knew very little about how JavaScript worked within the Rails ecosystem.  I debated whether I should just use the Bootstrap CDN's in my project or try to implement them directly through the Rails asset pipeline.  I decided to go the asset pipeline route as my Flatiron Projects are a chance to learn some new things while solidifying the course work.
 
 Well as it turns out Rails 6 has completely changed the asset pipeline for JavaScript and I had officially gone down a rabbit hole.  Luckily I found a video on the GoRails YouTube channel, http://https://www.youtube.com/watch?v=bn9arlhfaXc.   The video walked through the steps to set up Boostrap using the new Rails 6 way of doing Javascript, which uses Webpacker.  The summary of those steps are:
 
@@ -31,9 +31,6 @@ Well as it turns out Rails 6 has completely changed the asset pipeline for JavaS
 > 
 > import "bootstrap"
 > import "../stylesheets/application"
-> 
-> import flatpickr from 'flatpickr'
-> require("flatpickr/dist/flatpickr.css")
 > 
 > document.addEventListener("turbolinks:load", () => {
 > $('[data-toggle="tooltip"]').tooltip()
