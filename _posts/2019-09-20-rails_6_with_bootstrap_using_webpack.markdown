@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails 6 with Bootstrap using Webpack"
-date:       2019-09-20 18:31:02 +0000
+date:       2019-09-20 14:31:03 -0400
 permalink:  rails_6_with_bootstrap_using_webpack
 ---
 
