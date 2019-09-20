@@ -37,11 +37,12 @@ Well as it turns out Rails 6 has completely changed the asset pipeline for JavaS
 > $('[data-toggle="popover"]').popover()
 > })
 4.   Navigate to the app/javascript/stylesheets/application.scss and add the following to the top:   `@import "~bootstrap/scss/bootstrap";`
-5.  The last step is to make sure that your layout/application.html.erb has all three of the following the <head> tag:
->   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
->   <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
->   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %> 
->   
+5.  The last step is to make sure that your layout/application.html.erb has all three of the following in the <head> tag:
+```
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %> 
+```
 
 You can now add your HTML and should have access to all the Bootsrap classes and features!
 
